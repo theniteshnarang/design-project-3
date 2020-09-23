@@ -321,7 +321,7 @@ body{
         &__heading{
             margin-bottom: 0;
             font-size: 1.8rem;
-            padding: 7px 0 17px;
+            padding: 1rem 0 2rem;
         }
         &__nav{
             height: 100%;
@@ -367,6 +367,17 @@ body{
     .main-section{
         &__background{
             transform: translateY(-33%);
+        }
+
+        &__heading{
+            .sub-title{
+                margin-bottom: 70px;
+            }
+            .btn{
+                position: absolute;
+                bottom: 3vh;
+                right: 30vw;
+            }
         }
     }
 

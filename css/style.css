@@ -392,7 +392,7 @@ body {
   .feature-section__heading {
     margin-bottom: 0;
     font-size: 1.8rem;
-    padding: 7px 0 17px;
+    padding: 1rem 0 2rem;
   }
   .feature-section__nav {
     height: 100%;
@@ -439,6 +439,14 @@ body {
   .main-section__background {
     -webkit-transform: translateY(-33%);
             transform: translateY(-33%);
+  }
+  .main-section__heading .sub-title {
+    margin-bottom: 70px;
+  }
+  .main-section__heading .btn {
+    position: absolute;
+    bottom: 3vh;
+    right: 30vw;
   }
   .contact-section {
     margin-top: -0.3%;
