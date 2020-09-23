@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Moonshine</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+            <a class="main-header__logo" href="#"> <img src="./img/logo.svg" alt="moonshine logo"></a>
+
+            <nav class="main-header__nav">
+                <a href="#" class="hide-desktop"><img class="menu" id="menu" src="./img/ham.svg" alt="ham image"></a>
+
+                <ul class="nav" id="nav">
+                    <li class="nav__exit hide-desktop" id="nav__exit"><img src="./img/exit.svg" alt=""></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#footer-section">Contact</a></li>
+                    <li><a href="#contact-section">Sign up</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main class="main-section">
+        <div class="main-section__wrapper container">
+            <div class="main-section__heading">
+                <h1 class="title">Visual Arts</h1>
+                <p class="sub-title">Follow the leaders for innovation</p>
+                <a href="#contact-section" class="btn">Join Now</a>
+            </div>
+            <img class="main-section__illustration" src="./img/visual-arts.svg" alt="visual-arts">
+        </div>
+        <img class="scroll" src="./img/scroll.svg" alt="">
+        <img class="main-section__background" src="./img/vector-design.svg" alt="">
+    </main>
+    <section class="feature-section">
+        <div class="container">
+            <h2 class="feature-section__heading">Benefits Section</h2>
+            <nav class="feature-section__nav">
+                <ul>
+                    <li><img src="./img/icon-1.svg" alt="icon-1"></li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                </ul>
+                <ul>
+                    <li><img src="./img/icon-2.svg" alt="icon-1"></li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                </ul>
+                <ul>
+                    <li><img src="./img/icon-3.svg" alt="icon-1"></li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                    <li>Lorem Ipsum</li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="contact-section" id="contact-section">
+        <img class="contact-section__background" src="./img/inverted-vector.svg" alt="">
+        <div class="container">
+            <h2 class="title">Contact</h2>
+            <form action="#">
+                <div class="input-grp">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="input-grp">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="input-grp">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="3"></textarea>
+                </div>
+                <button class="input-grp btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer-section" id="footer-section">
+        <div class="container">
+            <nav class="footer-section__links">
+                <ul>
+                    <li class="footer-links">Links</li>
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <ul>
+                    <li class="Social-links">Social links</li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </nav>
+            <p class="footer-section__address">Ahmedabad, Gujarat <br>India <br>&copy; Made by &hearts; Nitesh Narang, 2020</p>
+        </div>
+    </footer>
+</body>
+
+</html>
