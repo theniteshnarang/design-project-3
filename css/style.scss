@@ -290,9 +290,54 @@ body{
 }
 
 @media(max-width:700px){
+    .show-mobile{
+        display: block;
+    }
+
     .main-header{
-        &__nav ul{
-            flex-direction: column;
+        &__logo img{
+            width: 180px;
+        }
+
+        &__nav {
+            .hide-nav{
+                display: none;
+            }
+            a img{
+                width: 28px;
+            }
+            ul{
+                flex-direction: column;
+                position: fixed;
+                top: 0;
+                right: 0;
+                width: 50%;
+                height: 50%;
+                z-index: 3;
+                background-color: $footer-color;
+                li{ 
+                    margin: 0;
+                    a{  display: block;
+                        // height: 5vh;
+                        width: 100%;
+                        color: white;
+                        text-align: center;
+                        padding-top: 7px;
+                        background-color: rgb(19, 95, 100);
+                    }
+                    &:nth-child(1){
+                        text-align: right;
+                        padding: 10px;
+                    }
+                    &:nth-child(1) img{
+                        width: 20px;
+                        cursor: pointer;
+                    }
+                    &:nth-child(4) a{
+                        padding-bottom: 10px;
+                    }
+                }
+            }
         }
     }
     .main-section{

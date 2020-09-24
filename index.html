@@ -15,10 +15,10 @@
             <a class="main-header__logo" href="#"> <img src="./img/logo.svg" alt="moonshine logo"></a>
 
             <nav class="main-header__nav">
-                <a href="#" class="hide-desktop"><img class="menu" id="menu" src="./img/ham.svg" alt="ham image"></a>
+                <a href="#" class="hide-desktop show-mobile"><img class="menu" id="menu" src="./img/ham.svg" alt="ham image"></a>
 
-                <ul class="nav" id="nav">
-                    <li class="nav__exit hide-desktop" id="nav__exit"><img src="./img/exit.svg" alt=""></li>
+                <ul class="nav hide-nav" id="nav">
+                    <li class="nav__exit hide-desktop show-mobile" id="nav__exit"><img src="./img/exit.svg" alt=""></li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#footer-section">Contact</a></li>
                     <li><a href="#contact-section">Sign up</a></li>
@@ -106,6 +106,16 @@
             <p class="footer-section__address">Ahmedabad, Gujarat <br>India <br>&copy; Made by &hearts; Nitesh Narang, 2020</p>
         </div>
     </footer>
+    <script>
+        const menu= document.getElementById("menu");
+        const nav= document.getElementById("nav");
+        const nav__exit= document.getElementById("nav__exit");
+        menu.addEventListener('click',(e)=>{
+            nav.classList.toggle('hide-nav');
+        })
+        nav__exit.addEventListener('click',(e)=>{
+            nav.classList.add('hide-nav');
+        })
+    </script>
 </body>
-
 </html>
