@@ -380,8 +380,8 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 5vh;
+    right: 4vw;
     width: 50%;
     height: 50%;
     z-index: 3;
